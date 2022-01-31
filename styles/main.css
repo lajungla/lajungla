@@ -7,6 +7,9 @@
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 .logo {
@@ -17,4 +20,8 @@
     min-height: 28vh;
     width: 85vw;
     margin-top: 2vh;
+}
+
+main p {
+    color: white;
 }
