@@ -1,0 +1,20 @@
+.container {
+    background-image: var(--background);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-image: var(--logo);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    min-height: 28vh;
+    width: 85vw;
+    margin-top: 2vh;
+}
