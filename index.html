@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+    <div class="loader"></div>
     <div class="container">
         <header class="logo"></header>
         <nav></nav>
@@ -20,5 +21,11 @@
             </header>
         </main>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+    </script>
 </body>
 </html>
