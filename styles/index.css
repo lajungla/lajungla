@@ -1,7 +1,7 @@
 @import url("/styles/variables.css");
-@import url("/styles/index/main.css");
-@import url("/styles/viewDrinks/main.css");
+@import url("/styles/index/landing.css");
+@import url("/styles/viewDrinks/viewDrinks.css");
 
 * {
-    font-family: 'Reggae One', cursive;
+    font-family: var(--fontFamily);
 }

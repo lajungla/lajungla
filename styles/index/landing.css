@@ -56,6 +56,15 @@
     margin: 5% auto 1vh auto;
 }
 
+.tiger {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tigerImg {
+    height: 10vh;
+}
 
 .cardMain {
     display: flex;
@@ -66,8 +75,8 @@
 .cardTitle {
     color: white;
     text-shadow: var(--borderTitle);
-    font-size: 3.5rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 2vh;
 }
 
 .cardButtons {
@@ -80,14 +89,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 4vh;
+  
     text-decoration: none;
-
     color: white;
     text-shadow: var(--border);
     font-size: 1.8rem;
+    
     padding: 15px 20px;
     margin-bottom: 2vh;
-    background-color: rgba(255, 255, 255, 0.452);
+    background-color: rgba(209, 209, 209, 0.54);
     border-radius: 10px;
     border: 3px solid var(--color1);
 }
@@ -113,5 +124,21 @@
     text-shadow: var(--border);
     color: white;
     font-size: 1.6rem;
-    margin-bottom: 15px;
+    margin-bottom: 1vh;
+}
+
+.imgMono {
+    height: 10vh;
+}
+
+.imgInsta{
+    height: 5vh;
+}
+
+@media screen and (max-height:700px) {
+    
+.welcomeIntro {
+    font-size: 1rem;
+}
+
 }
