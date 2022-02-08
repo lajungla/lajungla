@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jungle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/icon.ico" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="loaderViewDrinks"></div>
+    <div class="containerViewsDrinks">
+        <header class="logo"></header>
+        <main>
+            <h1 class="drinksTitle">Bebidas</h1>
+            <div class="containerButtons">
+                <section class="buttonsLeft">
+                    <div class="tipsDrinks">
+                        <button class="buttonTipsDrinks">
+                            <p class="cervezas">Cervezas</p>
+                        </button>    
+                    </div>
+                    <div class="tipsDrinks">
+                        <button class="buttonTipsDrinks">
+                            <p class="cocktailsTheJungle">Cocktails "TheJungle"</p>
+                        </button>    
+                    </div>
+                    <div class="tipsDrinks">
+                        <button class="buttonTipsDrinks">
+                            <p class="chupitos">Chupitos</p>
+                        </button>    
+                    </div>
+                </section>
+                <section class="buttonsRight">
+                    <div class="tipsDrinksRight">
+                        <button class="buttonTipsDrinks">
+                            <p class="cocktailsClasicos">Cocktails Clasicos</p>
+                        </button>    
+                    </div>
+                    <div class="tipsDrinksRight">
+                        <button class="buttonTipsDrinks">
+                            <p class="combinados">Conmbinados</p>
+                        </button>    
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loaderViewDrinks").fadeOut(500);
+        });
+    </script>
+</body>
+</html>

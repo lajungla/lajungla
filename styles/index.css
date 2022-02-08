@@ -1,2 +1,7 @@
 @import url("/styles/variables.css");
-@import url("/styles/main.css");
+@import url("/styles/index/main.css");
+@import url("/styles/viewDrinks/main.css");
+
+* {
+    font-family: 'Reggae One', cursive;
+}
