@@ -1,7 +1,11 @@
 @import url("/styles/variables.css");
 @import url("/styles/index/landing.css");
-@import url("/styles/viewDrinks/viewDrinks.css");
 
+/* Bebidas */
+@import url("/styles/viewDrinks/viewDrinks.css");
+@import url("/styles/viewDrinks/cervezas.css");
+
+/* ------------------------------------------- */
 * {
     font-family: var(--fontFamily);
 }

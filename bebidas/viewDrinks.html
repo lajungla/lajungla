@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 <body>
-    <div class="loaderViewDrinks"></div>
+    <div class="loader"></div>
     <div class="containerViewsDrinks">
         <header class="logo"></header>
         <main>
@@ -20,7 +20,7 @@
                 <section class="buttonsLeft">
                     <div class="tipsDrinks">
                         <button class="buttonTipsDrinks">
-                            <p class="cervezas">Cervezas</p>
+                            <a href="/bebidas/redirects/cervezas.html" class="cervezas">Cervezas</a> 
                         </button>    
                     </div>
                     <div class="tipsDrinks">
@@ -52,7 +52,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript">
         $(window).load(function() {
-            $(".loaderViewDrinks").fadeOut(1000);
+            $(".loader").fadeOut(1000);
         });
     </script>
 </body>

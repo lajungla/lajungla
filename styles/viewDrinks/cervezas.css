@@ -1,0 +1,35 @@
+.scrollON {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.containerCervezas {
+    min-height: 100%;
+}
+
+.containerCervezaa {
+    background-image: var(--bg_branch_bottom);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* min-width: 200px; */
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.containerCubos {
+    background-image: var(--bg_branch_bottom);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* min-width: 100%; */
+    min-height: 100vh;
+
+}
