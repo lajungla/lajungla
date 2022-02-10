@@ -1,13 +1,13 @@
 <svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_180_200)">
 <rect width="375" height="812" fill="#B0E995"/>
-<rect width="375" height="811" fill="url(#pattern0)"/>
+<rect width="375" height="812" fill="url(#pattern0)"/>
 <rect x="-64" y="310.883" width="229" height="460" transform="rotate(-37.6504 -64 310.883)" fill="url(#pattern1)"/>
 <rect x="166.789" y="374" width="299" height="336" transform="rotate(33.9794 166.789 374)" fill="url(#pattern2)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_180_200" transform="translate(-0.220889) scale(0.00144178 0.000666667)"/>
+<use xlink:href="#image0_180_200" transform="translate(-0.221778) scale(0.00144356 0.000666667)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_180_200" transform="scale(0.00436681 0.00217391)"/>
