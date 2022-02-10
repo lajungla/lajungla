@@ -76,6 +76,13 @@
 
 }
 
+.logoViewDrinks {
+    height: 21vh;
+    margin-bottom: 4vh;
+
+    z-index: 2;
+}
+
 .cervezas {
     color: white;
     text-shadow: var(--border);

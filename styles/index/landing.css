@@ -28,14 +28,8 @@
 }
 
 .logo {
-    background-image: var(--logo);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    min-height: 26vh;
-    width: 85vw;
-    margin-top: 1%;
+    height: 21vh;
+    margin-bottom: 1vh;
 
     z-index: 2;
 }
