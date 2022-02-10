@@ -9,8 +9,8 @@
     z-index: 1;
 }
 
-.fondoimagen2 {
-    background-image: url("../../assets/backgrounds/bgCerveza.svg");
+.fondoCocktailsSpecials1 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales1.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,8 +22,8 @@
     min-height: 100vh;
 }
 
-.fondoimagen3 {
-    background-image: url("/assets/backgrounds/bgCubos.svg");
+.fondoCocktailsSpecials2 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,8 +35,8 @@
     min-height: 100vh;
 }
 
-.fondoimagen4 {
-    background-image: url("/assets/backgrounds/bgCerveEspeciales.svg");
+.fondoCocktailsSpecials3 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales3.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,41 +48,35 @@
     min-height: 100vh;
 }
 
-.logoCerveza {
+.fondoCocktailsSpecials4 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.logoCocktailsSpecials {
     height: 21vh;
     position: absolute;
     z-index: 2;
 }
 
-.h1CervezasConLogo {
+.h1CocktailsSpecialsConLogo {
     font-family: var(--fontFamily);
     color: white;
     text-shadow: var(--borderTitle);
+
+    text-align: center;
 
     position: absolute;
     margin: 0;
     top: 25vh;
 
-    font-size: 4rem;
+    font-size: 1.8rem;
 }
-
-.h1Cervezas {
-    font-family: var(--fontFamily);
-    color: white;
-    text-shadow: var(--borderTitle);
-
-    position: absolute;
-    margin: 0;
-    top: 15vh;
-
-    font-size: 3rem;
-}
-
-/* .scrollON {
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-::-webkit-scrollbar {
-    display: none;
-} */

@@ -1,0 +1,88 @@
+.fondoimagen1 {
+    position: -webkit-sticky;
+    position: fixed;
+
+    top: 0;
+    width: 100vw;
+    min-height: 100vh;
+
+    z-index: 1;
+}
+
+.fondoimagen2 {
+    background-image: url("/assets/backgrounds/bgCerveza.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoimagen3 {
+    background-image: url("/assets/backgrounds/bgCubos.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoimagen4 {
+    background-image: url("/assets/backgrounds/bgCerveEspeciales.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.logoCerveza {
+    height: 21vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.h1CervezasConLogo {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 25vh;
+
+    font-size: 4rem;
+}
+
+.h1Cervezas {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 15vh;
+
+    font-size: 3rem;
+}
+
+/* .scrollON {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} */
