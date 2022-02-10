@@ -58,9 +58,19 @@
 }
 
 .logoCerveza {
-    height: 15vh;
+    height: 21vh;
     position: absolute;
     z-index: 2;
+}
+
+.h1CervezasConLogo {
+    color: white;
+
+    position: absolute;
+    margin: 0;
+    top: 25vh;
+
+    font-size: 3rem;
 }
 
 .h1Cervezas {
