@@ -10,7 +10,7 @@
 }
 
 .fondoimagen2 {
-    background-image: url("/assets/backgrounds/cervezas/bgCerveza2.svg");
+    background-image: var(--bg_cervezas);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@
 }
 
 .fondoimagen3 {
-    background-image: url("/assets/backgrounds/cervezas/bgCubos.svg");
+    background-image: var(--bg_cubos);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +36,7 @@
 }
 
 .fondoimagen4 {
-    background-image: url("/assets/backgrounds/cervezas/bgCerveEspeciales.svg");
+    background-image: var(--bg_especialesCervezas);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,26 +81,13 @@
 .sectionBotellines {
     margin-top: 40vh;
     z-index: 5;
-    /* display: flex;
-    flex-direction: column; */
+    
     position: relative;
 }
 
-.botellines1 {
-    width: 85vw;
-    position: relative;
-
-    /* display: flex; */
-    /* justify-content: space-between; */
-
-}
 .botellines2 {
-    width: 85vw;
     position: relative;
     top: 18vh;
-
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 .flexcentro {
     display: flex;
@@ -108,7 +95,6 @@
 }
 .flexcubo {
     width: 35vw;
-
 }
 
 .botellines1Precio1 {
@@ -213,26 +199,26 @@
 
 
 
-.botellines1Precio {
+/* .botellines1Precio {
     display: flex;
     align-items: center;
 
     color: white;
     text-shadow: var(--border);
     font-size: 1.5rem;
-}
+} */
 
 
-.botellines2Precio {
+/* .botellines2Precio {
     display: flex;
     align-items: center;
 
     color: white;
     text-shadow: var(--border);
     font-size: 1.5rem;
-}
+} */
 
-.botellines3 {
+/* .botellines3 {
     width: 85vw;
     height: 10vh;
 
@@ -240,9 +226,9 @@
 
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.botellines3Precio {
+/* .botellines3Precio {
     display: flex;
     align-items: center;
 
@@ -251,9 +237,9 @@
     font-size: 1.5rem;
 
     margin-bottom: 1vh;
-}
+} */
 
-.botellines3Precio1906 {
+/* .botellines3Precio1906 {
     display: flex;
     align-items: center;
 
@@ -262,30 +248,19 @@
     font-size: 1.5rem;
 
     margin-bottom: 10vh;
-}
+} */
 
 .botellines4 {
     width: 85vw;
-    height: 10vh;
+    /* height: 10vh; */
 
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
 
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
-.botellines4Precio {
-    display: flex;
-    align-items: center;
-
-    color: white;
-    text-shadow: var(--border);
-    font-size: 1.5rem;
-
-    margin-bottom: 8vh;
-}
-
-.botellines4PrecioFree {
+/* .botellines4PrecioFree {
     display: flex;
     align-items: center;
 
@@ -294,7 +269,7 @@
     font-size: 1.5rem;
 
     margin-bottom: 5vh;
-}
+} */
 
 .imgBotellinesEstrella {
     height: 15vh;

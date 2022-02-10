@@ -5,8 +5,9 @@
     
     /* Bebidas */
     --bg_Drinks: url("/assets/backgrounds/only-bg.svg");
-    --bg_branch_bottom: url("/assets/backgrounds/bg-branch-bottom.svg");
-    --bg_branch_top_bottom: url("/assets/backgrounds/bg-branch-top-bottom.svg");
+    --bg_cervezas: url("/assets/backgrounds/cervezas/bgCerveza2.svg");
+    --bg_cubos: url("/assets/backgrounds/cervezas/bgCubos.svg");
+    --bg_especialesCervezas: url("/assets/backgrounds/cervezas/bgCerveEspeciales.svg");
 
     /* ------------------------------------------------- */
     --color1: #0E5B2C;
