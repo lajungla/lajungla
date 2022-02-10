@@ -11,12 +11,11 @@
     min-height: 100%;
 }
 
-.containerCervezaa {
+.containerCerveza {
     background-image: var(--bg_branch_bottom);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
-    /* min-width: 200px; */
     min-height: 100vh;
 
     display: flex;
@@ -26,10 +25,18 @@
 }
 
 .containerCubos {
-    background-image: var(--bg_branch_bottom);
-    background-size: contain;
+    background-image: var(--bg_branch_top_bottom);
+    background-size: cover;
     background-repeat: no-repeat;
-    /* min-width: 100%; */
+
     min-height: 100vh;
 
+}
+
+.containerEspeciales {
+    background-image: var(--bg_branch_top);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
 }
