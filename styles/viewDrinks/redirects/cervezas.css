@@ -10,7 +10,7 @@
 }
 
 .fondoimagen2 {
-    background-image: url("/assets/backgrounds/bgCerveza.svg");
+    background-image: url("/assets/backgrounds/cervezas/bgCerveza.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@
 }
 
 .fondoimagen3 {
-    background-image: url("/assets/backgrounds/bgCubos.svg");
+    background-image: url("/assets/backgrounds/cervezas/bgCubos.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +36,7 @@
 }
 
 .fondoimagen4 {
-    background-image: url("/assets/backgrounds/bgCerveEspeciales.svg");
+    background-image: url("/assets/backgrounds/cervezas/bgCerveEspeciales.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,7 +63,7 @@
     margin: 0;
     top: 25vh;
 
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .h1Cervezas {
@@ -73,7 +73,7 @@
 
     position: absolute;
     margin: 0;
-    top: 15vh;
+    top: 12vh;
 
     font-size: 3rem;
 }
