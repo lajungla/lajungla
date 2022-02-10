@@ -4,7 +4,7 @@
 
     top: 0;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 105vh; /* Media Query para responsive del galaxy fold */
 
     z-index: 1;
 }
