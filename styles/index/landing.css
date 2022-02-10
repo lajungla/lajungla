@@ -28,14 +28,10 @@
 }
 
 .logo {
-    background-image: var(--logo);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 21vh;
+    margin-bottom: 1vh;
 
-    min-height: 26vh;
-    width: 85vw;
-    margin-top: 1%;
+    z-index: 2;
 }
 
 .welcomeTitle{

@@ -47,6 +47,20 @@
     margin-bottom: 8vh;
 }
 
+.tipsDrinks1 {
+    background-image: url("/assets/bebidas/b-cervezas.svg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 16vw;
+
+    display: flex;
+    justify-content: flex-end;
+    
+    padding-right: 5vw;
+    padding-bottom: 8.5vh;
+
+}
+
 .buttonTipsDrinks {
     height: 9vh;
     width: 19vh;
@@ -54,13 +68,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 20px;
+    padding: 5% 50%;
     margin-bottom: 25px;
 
-    background-color: #5B7E3D
-    ;
+    background-color: #5B7E3D;
+
     border-radius: 10px;
     border: 3px solid var(--color1);
+
+    z-index: 2;
+
+}
+
+.logoViewDrinks {
+    height: 21vh;
+    margin-bottom: 4vh;
+
+    z-index: 2;
 }
 
 .cervezas {
@@ -69,6 +93,7 @@
     font-size: 1.8rem;
     font-weight: var(--fontSize);
     text-decoration: none;
+    padding: 5% 5%;
 }
 
 .cocktailsClasicos {
@@ -76,6 +101,8 @@
     text-shadow: var(--border);
     font-size: 1.4rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .cocktailsTheJungle {
@@ -83,6 +110,8 @@
     text-shadow: var(--border);
     font-size: 1.4rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .combinados {
@@ -90,6 +119,8 @@
     text-shadow: var(--border);
     font-size: 1.2rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .chupitos {
@@ -97,4 +128,6 @@
     text-shadow: var(--border);
     font-size: 1.8rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }

@@ -4,9 +4,7 @@
     --background: url("/assets/backgrounds/background.svg");
     
     /* Bebidas */
-    --bg_Drinks: url("/assets/backgrounds/background.svg");
-    --branches_Drinks: url("/assets/bebidas/bebidasBranches.svg");
-    --bg_branch_top: url("/assets/backgrounds/bg-branch-top.svg");
+    --bg_Drinks: url("/assets/backgrounds/only-bg.svg");
     --bg_branch_bottom: url("/assets/backgrounds/bg-branch-bottom.svg");
     --bg_branch_top_bottom: url("/assets/backgrounds/bg-branch-top-bottom.svg");
 

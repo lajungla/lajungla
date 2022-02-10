@@ -1,0 +1,237 @@
+.fondoimagen1 {
+    position: -webkit-sticky;
+    position: fixed;
+
+    top: 0;
+    width: 100vw;
+    min-height: 100vh;
+
+    z-index: 1;
+}
+
+.fondoimagen2 {
+    background-image: url("/assets/backgrounds/cervezas/bgCerveza.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoimagen3 {
+    background-image: url("/assets/backgrounds/cervezas/bgCubos.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoimagen4 {
+    background-image: url("/assets/backgrounds/cervezas/bgCerveEspeciales.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.logoCerveza {
+    height: 21vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.h1CervezasConLogo {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 25vh;
+
+    font-size: 3.5rem;
+}
+
+.h1Cervezas {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 12vh;
+
+    font-size: 3rem;
+}
+
+.sectionBotellines {
+    margin-top: 40vh;
+    z-index: 5;
+}
+
+.botellines1 {
+    width: 85vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.botellines1Precio {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+}
+
+.botellines2 {
+    width: 85vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.botellines2Precio {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+}
+
+.botellines3 {
+    width: 85vw;
+    height: 10vh;
+
+    margin-top: 4vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.botellines3Precio {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+
+    margin-bottom: 1vh;
+}
+
+.botellines3Precio1906 {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+
+    margin-bottom: 10vh;
+}
+
+.botellines4 {
+    width: 85vw;
+    height: 10vh;
+
+    margin-top: 2vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.botellines4Precio {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+
+    margin-bottom: 8vh;
+}
+
+.botellines4PrecioFree {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+
+    margin-bottom: 5vh;
+}
+
+.imgBotellinesEstrella {
+    height: 15vh;
+    margin-right: 2vw;
+    margin-left: 3vw;
+}
+
+.imgBotellinesHeineken {
+    height: 15vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.imgBotellinesVoldDamm {
+    height: 15vh;
+    margin-right: 2vw;
+}
+
+.imgBotellinesCorona {
+    height: 15vh;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.imgBotellines1906 {
+    height: 15vh;
+    margin-right: 2vw;
+    margin-left: 8vw;
+}
+
+.imgBotellinesDesperados {
+    height: 15vh;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    margin-right: 3vw;
+}
+
+.imgBotellinesDammFree {
+    height: 15vh;
+    margin-left: 18vw;
+    margin-right: 2vw;
+}
+
+.imgBotellinesGalicia {
+    height: 15vh;
+    margin-left: 2vw;
+    margin-right: 23vw;
+}
+
+/* .scrollON {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} */

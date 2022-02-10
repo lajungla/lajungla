@@ -1,0 +1,82 @@
+.fondoimagen1 {
+    position: -webkit-sticky;
+    position: fixed;
+
+    top: 0;
+    width: 100vw;
+    min-height: 100vh;
+
+    z-index: 1;
+}
+
+.fondoCocktailsSpecials1 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoCocktailsSpecials2 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoCocktailsSpecials3 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.fondoCocktailsSpecials4 {
+    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.logoCocktailsSpecials {
+    height: 21vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.h1CocktailsSpecialsConLogo {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    text-align: center;
+
+    position: absolute;
+    margin: 0;
+    top: 25vh;
+
+    font-size: 1.8rem;
+}
