@@ -43,6 +43,10 @@
     margin-bottom: 8vh;
 }
 
+.buttonsRight {
+    padding-top: 6vh;;
+}
+
 .tipsDrinks1 {
     background-image: url("/assets/bebidas/b-cervezas.svg");
     background-size: 150%;
@@ -50,9 +54,43 @@
     background-position: 16vw;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     
-    padding-right: 5vw;
+    padding-right: 0vw;
+    padding-left: 5vw;
+
+    padding-bottom: 11.5vh;
+
+}
+
+.tipsDrinks2 {
+    background-image: url("/assets/bebidas/b-cocktailsClasicos.svg");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position:right ;
+
+    display: flex;
+    justify-content: flex-start;
+    
+    padding-top: 1vh;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    padding-bottom: 12.5vh;
+
+}
+
+.tipsDrinks3 {/* por media query quitar el backgound image para el responsive del Iphone SE */
+    /* background-image: url("/assets/bebidas/b-cocktailsClasicos.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -8vw; */
+
+    display: flex;
+    justify-content: center;
+    
+    padding-right: 0vw;
+    padding-left: 5vw;
+
     padding-bottom: 8.5vh;
 
 }
@@ -75,6 +113,7 @@
     z-index: 2;
 
 }
+
 
 .logoViewDrinks {
     height: 21vh;
