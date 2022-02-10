@@ -90,6 +90,8 @@
     text-shadow: var(--border);
     font-size: 1.4rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .cocktailsTheJungle {
@@ -97,6 +99,8 @@
     text-shadow: var(--border);
     font-size: 1.4rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .combinados {
@@ -104,6 +108,8 @@
     text-shadow: var(--border);
     font-size: 1.2rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
 
 .chupitos {
@@ -111,4 +117,6 @@
     text-shadow: var(--border);
     font-size: 1.8rem;
     font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
 }
