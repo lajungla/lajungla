@@ -1,4 +1,4 @@
-.fondoimagen1 {
+/* .fondoimagen1 {
     position: -webkit-sticky;
     position: fixed;
 
@@ -7,7 +7,7 @@
     min-height: 100vh;
 
     z-index: 1;
-}
+} */
 
 .fondoCocktailsSpecials1 {
     background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales1.svg");

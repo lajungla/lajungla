@@ -6,7 +6,9 @@
     width: 100vw;
     min-height: 100vh;
 
-    z-index: 1;
+    overflow: hidden;
+
+    z-index: 9998;
 }
 
 .fondoimagen2 {
@@ -51,7 +53,7 @@
 .logoCerveza {
     height: 21vh;
     position: absolute;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .h1CervezasConLogo {
