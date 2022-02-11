@@ -4,11 +4,16 @@
 
     top: 0;
     width: 100vw;
-    min-height: 105vh;
+    min-height: 100vh; /* Media Query para responsive del galaxy fold */
 
-    z-index: 9998;
+    display: flex;
+    align-items: center;
+    z-index: 200;
 }
-
+.contenedor {
+    width: 100vw;
+    overflow-x: hidden;
+}
 .fondoimagen2 {
     background-image: var(--bg_cervezas);
     background-size: cover;
