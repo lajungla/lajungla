@@ -4,9 +4,7 @@
 
     top: 0;
     width: 100vw;
-    min-height: 100vh;
-
-    overflow: hidden;
+    min-height: 105vh;
 
     z-index: 9998;
 }
