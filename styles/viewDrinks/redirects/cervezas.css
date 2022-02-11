@@ -327,3 +327,93 @@
 ::-webkit-scrollbar {
     display: none;
 } */
+
+
+/* ------------------------------------------------------ */
+
+.h1Cubos {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 13vh;
+
+    font-size: 3.5rem;
+}
+
+.h3Cubos {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    position: absolute;
+    margin: 0;
+    top: 22vh;
+
+    font-size: 1.5rem;
+
+}
+
+.containerCubos{
+    margin-top: 40vh;
+    width: 100vw;
+    
+    position: relative;
+}
+.flexDere {
+    display: flex;
+    align-items: center;
+    color: white;
+
+    position: absolute;
+    top: -9.8vh;
+    left: 9vw;
+
+    width: 100vw;
+
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+
+}
+.flexIzqui {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+
+    position: absolute;
+    top: 7vh;
+    right: 3vw;
+
+    width: 100vw;
+
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+}
+.flexDere2 {
+    display: flex;
+    align-items: center;
+    color: white;
+
+    position: absolute;
+    bottom: 15.8vh;
+    left: 4.5vw;
+
+    width: 100vw;
+
+    text-shadow: var(--border);
+    font-size: 1.5rem;
+}
+.imgCuboCoronita {
+    height: 23vh;
+    margin-right: 3.2vw;
+}
+.imgCuboDesesperados {
+    height: 18vh;
+}
+.imgCuboHeineken {
+    height: 20vh;
+    margin-right: 3.2vw;
+}
