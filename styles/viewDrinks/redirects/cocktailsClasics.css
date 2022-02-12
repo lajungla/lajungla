@@ -63,7 +63,10 @@
 } */
 
 .logoCocktailsSpecials {
+    display: flex;
+    justify-content: center;
     z-index: 800;
+
 }
 
 .h1CocktailsSpecialsConLogo {
