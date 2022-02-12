@@ -23,44 +23,7 @@
     min-height: 100vh;
 }
 
-/* .fondoCocktailsSpecials2 {
-    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales2.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
-    position: relative;
-    display: flex;
-    justify-content: center;
-
-    min-height: 100vh;
-}
-
-.fondoCocktailsSpecials3 {
-    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales3.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    position: relative;
-    display: flex;
-    justify-content: center;
-
-    min-height: 100vh;
-}
-
-.fondoCocktailsSpecials4 {
-    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales4.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    position: relative;
-    display: flex;
-    justify-content: center;
-
-    min-height: 100vh;
-} */
 
 .logoCocktailsSpecials {
     display: flex;
