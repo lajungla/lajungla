@@ -1,28 +1,29 @@
-/* .fondoimagen1 {
+.fondoimagen1 {
     position: -webkit-sticky;
     position: fixed;
 
     top: 0;
-    width: 100vw;
+    width: 101vw;
     min-height: 100vh;
 
     z-index: 1;
-} */
+}
 
 .fondoCocktailsSpecials1 {
-    background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales1.svg");
+    background-image: var(--bg_Drinks);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
 
+    width: 101vw;
     min-height: 100vh;
 }
 
-.fondoCocktailsSpecials2 {
+/* .fondoCocktailsSpecials2 {
     background-image: url("/assets/backgrounds/cocktailsSpecials/bgCocktailsEspeciales2.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,12 +60,10 @@
     justify-content: center;
 
     min-height: 100vh;
-}
+} */
 
 .logoCocktailsSpecials {
-    height: 21vh;
-    position: absolute;
-    z-index: 2;
+    z-index: 800;
 }
 
 .h1CocktailsSpecialsConLogo {
@@ -74,9 +73,46 @@
 
     text-align: center;
 
-    position: absolute;
-    margin: 0;
-    top: 25vh;
+    margin-top: 3vh;
 
     font-size: 1.8rem;
+}
+
+.coctel {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 15vw;
+
+    position: relative;
+}
+
+.titleCoctel {
+    font-size: 1.5rem;
+    margin-bottom: 1.5vh;
+}
+
+.descLine {
+    margin-bottom: 1.5%;
+}
+
+.finalPrice{
+    display: flex;
+    align-items:flex-end ;
+
+    position: absolute;
+    right: 14vw;
+}
+
+.precioFinal {
+    font-size: 1.8rem;
+    margin-right: 7%;
 }
