@@ -6,7 +6,6 @@
 
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 
     width: 101vw;
     min-height: 100vh;
@@ -37,7 +36,7 @@
     left: 17vw;
 }
 
-.combinadosContainer {
+.combinadosContainer { 
     font-family: var(--fontFamily);
     color: white;
     text-shadow: var(--border);
@@ -45,7 +44,7 @@
     display: flex;
     flex-direction: column;
     
-    margin-top: 45%;
+    margin-top: 45%;     /* @Media para los telefonos chiquitos */ 
     position: relative;
 }
 .producto1 {
@@ -78,23 +77,15 @@
 
     position: absolute;
     width: 100%;
-    /* height: 2.8em; */
-
-    /* position: absolute;
-    top: 20%; */
 
     font-family: var(--fontFamily);
     color: white;
     text-shadow: var(--border);
 
-    /* margin-top: 5vh; */
+    margin-top: 5%;
 }
 .imgEncabezado2 {
     width: 54vw;
-
-    /* position: absolute; */
-    top: 0%;
-    left: 0;
 }
 .titleProduct {
     position: absolute;
@@ -112,7 +103,7 @@
     display: flex;
     flex-direction: column;
     
-    margin-top: 31%;
+    margin-top: 38%;
     position: relative;
 }
 .flexFinalB1 {
