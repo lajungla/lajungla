@@ -1,0 +1,16 @@
+.cocktailsTJContainer { 
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20%;     
+    /* @Media para los telefonos chiquitos */ 
+    position: relative;
+}
+.flexFinalTJ {
+    position: absolute;
+    top: 0%;
+}
