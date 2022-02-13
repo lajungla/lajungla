@@ -1,0 +1,121 @@
+.fondoCombinados1 {
+    background-image: var(--bg_Drinks);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    width: 101vw;
+    min-height: 100vh;
+}
+
+.encabezado1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    position: absolute;
+    top: 20%;
+
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+}
+.imgEncabezado1 {
+    width: 100vw;
+}
+.cubaLitro {
+    position: absolute;
+    top: 40%;
+}
+.ginebra {
+    position: absolute;
+    top: 63%;
+    left: 17vw;
+}
+
+.combinadosContainer {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 45%;
+    position: relative;
+}
+.producto1 {
+    display: flex;
+    margin-bottom: 2.5vh;
+    z-index: 2;
+}
+.flexTitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 20%;
+}
+.titleCombi {
+    font-size: 1.5rem;
+} 
+.flexFinalB {
+    position: absolute;
+    top: 18%;
+}
+.finalBranch {
+    width: 100%;
+}
+
+
+.encabezado2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    /* height: 2.8em; */
+
+    /* position: absolute;
+    top: 20%; */
+
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    /* margin-top: 5vh; */
+}
+.imgEncabezado2 {
+    width: 54vw;
+
+    /* position: absolute; */
+    top: 0%;
+    left: 0;
+}
+.titleProduct {
+    position: absolute;
+    top: 42%;
+    left: 15.5vw;
+
+    font-size: 1.5rem;
+}
+
+.combinadosContainer1 {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 31%;
+    position: relative;
+}
+.flexFinalB1 {
+    position: absolute;
+    top: 112%;
+}

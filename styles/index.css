@@ -5,6 +5,7 @@
 @import url("/styles/viewDrinks/viewDrinks.css");
 @import url("/styles/viewDrinks/redirects/cervezas.css");
 @import url("/styles/viewDrinks/redirects/cocktailsClasics.css");
+@import url("/styles/viewDrinks/redirects/combinados.css");
 
 /* ------------------------------------------- */
 * {
