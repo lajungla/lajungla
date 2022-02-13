@@ -1,14 +1,3 @@
-.fondoimagen1 {
-    position: -webkit-sticky;
-    position: fixed;
-
-    top: 0;
-    width: 101vw;
-    min-height: 100vh;
-
-    z-index: 1;
-}
-
 .fondoCocktailsSpecials1 {
     background-image: var(--bg_Drinks);
     background-size: cover;
@@ -23,13 +12,10 @@
     min-height: 100vh;
 }
 
-
-
 .logoCocktailsSpecials {
     display: flex;
     justify-content: center;
     z-index: 800;
-
 }
 
 .h1CocktailsSpecialsConLogo {
