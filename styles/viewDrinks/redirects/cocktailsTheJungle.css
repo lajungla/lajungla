@@ -9,8 +9,49 @@
     margin-top: 20%;     
     /* @Media para los telefonos chiquitos */ 
     position: relative;
+
+    width: 95%;
+}
+.centerProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.producto1TJ{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2.5vh;
+    z-index: 1;
+}
+.nameTJ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 20%;
+}
+.flexTitleTJ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finalPriceTJ {
+
+    display: flex;
+    align-items: flex-end;
 }
 .flexFinalTJ {
     position: absolute;
-    top: 0%;
+    top: -15vh;
+}
+.flexFinalTJ1 {
+    position: absolute;
+    top: 0vh;
+}
+.flexFinalTJ2 {
+    position: absolute;
+    top: -6vh;
 }
