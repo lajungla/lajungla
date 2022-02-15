@@ -4,9 +4,11 @@
     text-shadow: var(--border);
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     
-    margin-top: 20%;     
+    margin-top: 25%;     
     /* @Media para los telefonos chiquitos */ 
     position: relative;
 
@@ -45,13 +47,13 @@
 }
 .flexFinalTJ {
     position: absolute;
-    top: -15vh;
+    top: -18vh;
 }
 .flexFinalTJ1 {
     position: absolute;
-    top: 0vh;
+    top:-4.5vh;
 }
 .flexFinalTJ2 {
     position: absolute;
-    top: -6vh;
+    top: -13vh;
 }
