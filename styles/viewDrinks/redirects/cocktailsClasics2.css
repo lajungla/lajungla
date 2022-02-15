@@ -1,0 +1,49 @@
+.producto2lefttj {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2.5vh;
+    margin-left: 5vw;
+    z-index: 1;
+}
+
+.cocktailsTJContainerCC { 
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10%;     
+    /* @Media para los telefonos chiquitos */ 
+    position: relative;
+
+    width: 95%;
+}
+
+.producto2righttj {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 2.5vh;
+    margin-right: 5vw;
+    z-index: 1;
+}
+
+.titleDescrip {
+    text-align: center;
+    font-size: 1;
+    width: 80%;
+} 
+
+.flexFinalTJXXL {
+    position: absolute;
+    top: 4vh;
+}
+
+.flexFinalTJColada {
+    position: absolute;
+    top: -12vh;
+}
+
