@@ -1,0 +1,32 @@
+.chupitosContainer { 
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 12%;     /* @Media para los telefonos chiquitos */ 
+    position: relative;
+}
+.producto1Chupi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    z-index: 1;
+}
+.titleProductChupi {
+    position: absolute;
+    top: 42%;
+    left: 11.5vw;
+
+    font-size: 1.5rem;
+}
+.flexTitleChupi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 20%;
+}
