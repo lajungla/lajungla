@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jungle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/logo/icon.ico" />
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <div class="loader"></div>
+    <img class="fondoimagen1" src="../../assets/backgrounds/layout.svg" alt=""/>
+    <div class="containerViewsDrinks">
+        <img class="logoViewDrinks" src="../../assets/logo/logo2.svg" alt="">
+        <main style="z-index: 300;">
+            <h1 class="drinksTitle">Comida</h1>
+
+            <button class="buttonTipsDrinks" style="margin-top: 50%;">
+                <a href="/comidas/redirects/viewTapas.html" class="cervezas">Tapas</a> 
+            </button>  
+            <button class="buttonTipsDrinks" style="margin-top: 15%;">
+                <a href="/comidas/redirects/viewBocadillos.html" class="cervezas">Bocadillos</a> 
+            </button>  
+        </main>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut(1000);
+        });
+    </script>
+</body>
+</html>
