@@ -9,11 +9,23 @@
     margin-top: 12%;     /* @Media para los telefonos chiquitos */ 
     position: relative;
 }
+.h1CocktailsSpecialsConLogo2 {
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--borderTitle);
+
+    text-align: center;
+
+    margin-top: 3vh;
+
+    font-size: 2.8rem;
+}
 .producto1Chupi {
     display: flex;
     align-items: center;
     margin-bottom: 2.5vh;
     z-index: 1;
+    line-height: 16px;
 }
 .titleProductChupi {
     position: absolute;
