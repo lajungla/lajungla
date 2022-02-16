@@ -64,6 +64,10 @@
     position: absolute;
     top: 18%;
 }
+.flexFinalB1 {
+    position: absolute;
+    bottom: -60vh;
+}
 .finalBranch {
     width: 100%;
 }
@@ -90,6 +94,13 @@
     position: absolute;
     top: 42%;
     left: 15.5vw;
+
+    font-size: 1.5rem;
+}
+.titleProduct11 {
+    position: absolute;
+    top: 42%;
+    left: 9.5vw;
 
     font-size: 1.5rem;
 }

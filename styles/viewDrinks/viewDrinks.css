@@ -12,10 +12,12 @@
 }
 
 .drinksTitle {
+    position: absolute;
+    left: 15vw;
     color: white;
     text-shadow: var(--borderTitle);
     font-size: 4rem;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 
     text-align: center;
 }
@@ -48,7 +50,7 @@
 }
 
 .buttonsRight {
-    padding-top: 6vh;;
+    padding-top: 50%;;
 }
 
 .tipsDrinks1 {
@@ -84,10 +86,10 @@
 }
 
 .tipsDrinks3 {/* por media query quitar el backgound image para el responsive del Iphone SE */
-    /* background-image: url("/assets/bebidas/b-cocktailsClasicos.svg");
+    background-image: url("/assets/bebidas/b-cervezas.svg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-x: -8vw; */
+    background-position-x: 15vw;
 
     display: flex;
     justify-content: center;
@@ -99,6 +101,21 @@
 
 }
 
+.tipsDrinks4 {/* por media query quitar el backgound image para el responsive del Iphone SE */
+    /* background-image: url("/assets/bebidas/b-cervezas.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 15vw; */
+
+    display: flex;
+    justify-content: center;
+    
+    padding-right: 0vw;
+    /* padding-left: 5vw; */
+
+    padding-bottom: 8.5vh;
+
+}
 .buttonTipsDrinks {
     height: 9vh;
     width: 19vh;
@@ -121,7 +138,7 @@
 
 .logoViewDrinks {
     height: 21vh;
-    margin-bottom: 4vh;
+    /* margin-bottom: 4vh; */
 
     z-index: 9999;
 }
@@ -169,4 +186,14 @@
     font-weight: var(--fontSize);
     text-decoration: none;
     padding: 5% 5%;
+}
+
+.vinos {
+    color: white;
+    text-shadow: var(--border);
+    font-size: 1.6rem;
+    font-weight: var(--fontSize);
+    text-decoration: none;
+    padding: 5% 5%;
+    line-height: 28px;
 }
