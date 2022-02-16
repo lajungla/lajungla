@@ -1,0 +1,46 @@
+.flexTitleVinos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 0%;
+}
+
+.finalPriceVinos{
+    display: flex;
+    align-items:flex-end ;
+    justify-content: flex-end;
+    margin-left: 5%;
+/* 
+    position: absolute;
+    right: 14vw; */
+}
+/* .euroDec {
+    display: flex;
+    align-items: flex-end;
+} */
+
+.encabezado3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: absolute;
+    top: -12vh;
+    width: 100%;
+
+    font-family: var(--fontFamily);
+    color: white;
+    text-shadow: var(--border);
+
+    /* margin-top: 5%; */
+}
+
+.producto1vinos {
+    display: flex;
+    margin-bottom: 2.5vh;
+    z-index: 1;
+}
