@@ -41,9 +41,29 @@
     position: absolute;
     top: 4vh;
 }
-
+.flexFinalTJXXL1 {
+    position: absolute;
+    top: 10vh;
+}
 .flexFinalTJColada {
     position: absolute;
     top: -12vh;
 }
+.flexFinalTJ1 {
+    position: absolute;
+    top: -18vh;
+}
+.flexFinalTJXXL2 {
+    position: absolute;
+    top: 9vh;
+}
 
+.flexFinalTJXXL3 {
+    position: absolute;
+    top: 14vh;
+}
+
+.flexFinalTJ2 {
+    position: absolute;
+    top: -9vh;
+}
