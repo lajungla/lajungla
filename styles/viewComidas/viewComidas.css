@@ -23,3 +23,35 @@
     width: 80%;
     
 }
+.flexTitleFood {
+    display: flex;
+    justify-content: flex-start;   
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 12%;
+}
+.flexTitleFoodJQ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 15px; 
+    margin-left: 12%;
+}
+.titleProductB {
+    position: absolute;
+    top: 42%;
+    left: 12.5vw;
+
+    font-size: 1.6rem;
+}
+.titleProductB1 {
+    position: absolute;
+    top: 42%;
+    left: 10.5vw;
+
+    font-size: 1.3rem;
+}
+.flexFinalBB {
+    position: absolute;
+    top: 55%;
+}
