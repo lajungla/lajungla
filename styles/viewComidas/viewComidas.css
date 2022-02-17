@@ -28,14 +28,14 @@
     justify-content: flex-start;   
     width: 100%;
     margin-right: 20%;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 .flexTitleFoodJQ {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     line-height: 15px; 
-    margin-left: 12%;
+    margin-left: 14%;
 }
 .titleProductB {
     position: absolute;
