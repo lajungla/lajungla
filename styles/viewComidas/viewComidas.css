@@ -1,0 +1,25 @@
+.containerBTNfood {
+    z-index: 300;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foodTitle {
+    /* position: absolute;
+    left: 15vw; */
+    color: white;
+    text-shadow: var(--borderTitle);
+    font-size: 4rem;
+    margin-bottom: 2vh;
+
+    text-align: center;
+}
+
+
+.conFlexfood {
+    /* margin-top: 20vh; */
+    width: 80%;
+    
+}
