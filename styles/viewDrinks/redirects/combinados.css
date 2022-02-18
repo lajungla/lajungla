@@ -132,3 +132,13 @@
     position: absolute;
     top: 112%;
 }
+.finalPriceCubaLitro {
+    display: flex;
+    align-items: center;
+}
+.producto3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+    z-index: 1;
+}
