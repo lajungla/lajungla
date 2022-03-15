@@ -53,6 +53,10 @@
     position: absolute;
     top: -18vh;
 }
+.flexFinalTJ6 {
+    position: absolute;
+    top: -20vh;
+}
 .flexFinalTJXXL2 {
     position: absolute;
     top: 6vh;
@@ -60,7 +64,11 @@
 
 .flexFinalTJXXL3 {
     position: absolute;
-    top: 9vh;
+    top: 13vh;
+}
+.flexFinalTJXXL4 {
+    position: absolute;
+    top: 1vh;
 }
 
 .flexFinalTJ2 {
@@ -74,4 +82,8 @@
 .flexFinalTJ4 {
     position: absolute;
     top: -10vh;
+}
+.flexFinalTJ5 {
+    position: absolute;
+    top: -12vh;
 }
