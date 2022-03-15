@@ -49,11 +49,16 @@
     position: absolute;
     top: -18vh;
 }
-.flexFinalTJ1 {
+
+.flexFinalTJ11 {
     position: absolute;
     top:-4.5vh;
 }
-.flexFinalTJ2 {
+.flexFinalTJ22 {
     position: absolute;
-    top: -13vh;
+    top: -14vh;
+}
+.flexFinalTJ4 {
+    position: absolute;
+    top: -9.5vh;
 }
