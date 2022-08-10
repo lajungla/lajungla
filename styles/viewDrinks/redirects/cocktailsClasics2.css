@@ -37,6 +37,17 @@
     width: 80%;
 } 
 
+.frutaPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conFruta {
+    margin-right: 5%;
+    white-space: nowrap;
+}
+
 .flexFinalTJXXL {
     position: absolute;
     top: 4vh;
